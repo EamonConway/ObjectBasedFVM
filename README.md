@@ -2,7 +2,8 @@
 
 The plan is to form a library of objects for use in the Finite Volume method. 
 The mesh elements will be used to create element objects. 
-These objects will be capable of returning information required, given a specific interpolant.
+These objects will be capable of returning information required, given a specific interpolant (bilinear,linear)
+This will allow for a construction of the flux which can then be used in your own personal timestepping.
 
 Eg// Bilinear FVM
 element object 
