@@ -14,3 +14,12 @@ element object
   
 Importantly, these objects should be constructed such that if the mesh is mixed element, the object takes that into account.
 Will require minimal input from the use, but should still return consistent results. 
+
+To be done// 
+  - Class MESH_ELEMENT
+  - Calculate Control Volume size
+  - Extend MESH_ELEMENT to do both surface integral and volume integral (Gauss Points for both)
+  - Current thought is a for loop over each element, could this be done in a more intelligent way ? 
+  - Can this definition of MESH_ELEMENT interface with something more complicated such as a quadtree structure for mesh refinement
+  - 
+  
